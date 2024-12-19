@@ -1,1 +1,1 @@
-# Placeholder for audio processing logic
+import whisper\n\n# Placeholder for speech recognition logic\ndef transcribe_audio(file_path):\n    model = whisper.load_model('base')\n    result = model.transcribe(file_path)\n    return result['text']

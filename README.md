@@ -35,3 +35,12 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
 ## License
 This project is licensed under the MIT License.
+
+## Testing
+To run tests, execute:
+```
+pytest tests
+```
+
+## CI/CD
+This project uses GitHub Actions for automated testing. Push or create a pull request to trigger the CI pipeline.

@@ -1,1 +1,1 @@
-# Placeholder for NLP logic
+from transformers import pipeline\n\n# Placeholder for NLP logic\ndef translate_text(text, target_language='fr'):\n    translator = pipeline('translation_en_to_fr')\n    return translator(text)[0]['translation_text']
