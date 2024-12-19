@@ -1,0 +1,1 @@
+flask\ntorch\ntransformers\nlibrosa\nffmpeg-python
